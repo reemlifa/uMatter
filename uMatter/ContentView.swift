@@ -9,19 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        GeometryReader { geo in
-            ZStack {
-                Image("background")
-                    .scaledToFill()
-                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
-                    .opacity(1.0)
+        NavigationStack {
+            GeometryReader { geo in
+                ZStack {
+                    Image("background")
+                        .scaledToFill()
+                        .edgesIgnoringSafeArea(.all)
+                        .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
+                        .opacity(1.0)
+                    VStack{
+                        Image("mainLogo")
+                            .padding(.bottom, 650.0)
+                    }
+                    
+                    ZStack{
+                        Circle().fill(Color.blue)
+                            .frame(width: 345, height: 400)
+                            .position(x: 190, y: 325)
+                        Text("You’ve tracked your emotions for")
+                            .multilineTextAlignment(.center)
+                            .padding(.bottom, 300.0)
+                        
+                    }
+                    
+                }
             }
         }
-        
     }
 }
-            
-#Preview {
-    ContentView()
-}
+    #Preview {
+        ContentView()
+    }
+

@@ -15,6 +15,7 @@
 		876CC33F2CB4D1EE00754055 /* uMatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC33E2CB4D1EE00754055 /* uMatterUITests.swift */; };
 		876CC3412CB4D1EE00754055 /* uMatterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC3402CB4D1EE00754055 /* uMatterUITestsLaunchTests.swift */; };
 		876CC3542CB4D64200754055 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876CC3502CB4D5D900754055 /* SplashScreenView.swift */; };
+		879778AB2CB8723D00B8CB92 /* emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879778A92CB8723900B8CB92 /* emotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		876CC33E2CB4D1EE00754055 /* uMatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uMatterUITests.swift; sourceTree = "<group>"; };
 		876CC3402CB4D1EE00754055 /* uMatterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uMatterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		876CC3502CB4D5D900754055 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		879778A92CB8723900B8CB92 /* emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				876CC3222CB4D1EB00754055 /* uMatterApp.swift */,
 				876CC3242CB4D1EB00754055 /* ContentView.swift */,
+				879778A92CB8723900B8CB92 /* emotion.swift */,
 				876CC3262CB4D1EE00754055 /* Assets.xcassets */,
 				876CC3282CB4D1EE00754055 /* uMatter.entitlements */,
 				876CC3292CB4D1EE00754055 /* Preview Content */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879778AB2CB8723D00B8CB92 /* emotion.swift in Sources */,
 				876CC3252CB4D1EB00754055 /* ContentView.swift in Sources */,
 				876CC3232CB4D1EB00754055 /* uMatterApp.swift in Sources */,
 			);
